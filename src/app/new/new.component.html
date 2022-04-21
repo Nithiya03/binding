@@ -1,0 +1,12 @@
+<p>mycomp works!</p>
+<h2>My new component</h2>
+<h1>{{ 10+10}}</h1>
+<h1>{{ n}}</h1>
+<h1>{{ fun()}}</h1>
+<!-- INTERPOLATION AND PROPERTY BINDING -->
+<input type="text" placeholder="{{place}}" [disabled]="dis">
+<!-- EVENT BINDING -->
+<button (click)="welcome()">clickme</button>
+<h2>Two way binding</h2>
+<input type="text" [(ngModel)]="name1"/>
+<p>{{name1}}</p>
